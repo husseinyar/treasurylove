@@ -1,4 +1,4 @@
-@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,500,300,700);
+
 body{font-family: "Lato", sans-serif;}
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:400,500,300,700);
 :root {
@@ -174,7 +174,7 @@ body {
     left: 20px;
    display: flex;
     max-width: 80%;
- 
+  padding-top: 10px;
     border-radius: 20px;
     margin: auto;
     justify-content: center;
@@ -183,6 +183,7 @@ body {
 
   }
   .section_first_img img{
+
     border-radius: 20px;
     width: 80%;
   }
@@ -300,8 +301,11 @@ footer {
           .muin-section{
             display: flex;
            
+              padding-top: 10px;
+              margin-bottom: 10px;
            width: 100%;
             text-align: center;
+            background-color: #ecece7a0;
           }
           .leftdiv{
 
@@ -347,12 +351,15 @@ footer {
               padding: 40px;
           }
           
+          .muin .container{
+           
+            color: #486255;
+          }
           .muin .container p{
             text-align: center;
             letter-spacing: 1px;  
             font-size: 20px;
             margin-bottom: 20px;
-            color: #486255;
           }
           .input,
             .msg .area{
@@ -388,6 +395,8 @@ footer {
              background-position: center;
              background-size: cover;
             }
+
+            
 /*  end   Services side */
     @media screen and (min-width: 700px) {
       #navbar-toggle,
@@ -486,30 +495,27 @@ footer {
 
    }
    /*   start  Services side */
-   .muin{
-    width: 100%;
-    display: grid;
- 
-   }
-   .muin img{
-    width: 50%;
-  
-   }
+   
+   
    .section-img .title{
     padding-top: 15%;
   }
   .section-img {
     height: 30%;
+    max-width: 100%;
   }
   .muin-section{
+    padding-top: 10px;
     display: block;
-    height: 30%;
-   width: 100%;
+    
+    width: 100%;
     text-align: center;
     justify-content: center;
     align-items: center;
   }
-  
+  .btn{
+    margin-bottom: 10px;
+  }
   p{
     align-items: center;
     text-align: center;
@@ -522,6 +528,8 @@ footer {
    max-width: 100%;
 
   }
+ 
+  
     }
    
     @media screen and (max-width: 992px) {
