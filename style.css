@@ -155,22 +155,36 @@ body {
   }
  .navbag{
    
- background-image: url("/imge/headimg.png");
-   background-position: center;
-   background-size: cover;
-   height: 100%;
+ 
+position: relative;
+  
    width: 100%;
    justify-content: center;
    align-items: center;
    text-align: center;
+
    z-index: -1;
 
    }
   .navbag .title{
     padding-top: 15%;
+    position: absolute;
+    top: 20%;
+   left: 10%
   }
-    
+  .navbag .images{
+   
+      width: 100%;
+      justify-content: center;
+      align-items: center;
+      text-align: center
+     }
+      .images img{
+      width: 100%;
+     
+     }
   .section_first{
+    margin-top: 30px;
     left: 20px;
    display: flex;
     max-width: 80%;
@@ -306,7 +320,9 @@ footer {
               margin-bottom: 10px;
            width: 100%;
             text-align: center;
-            background-color: #ecece7a0;
+            background-color: white;
+            color: wheat;
+            margin-bottom: 100px;
           }
           .leftdiv{
 
